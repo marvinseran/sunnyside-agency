@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url(images/photos/image-header.jpg);
+  width: auto;
+  height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -5px;
+}
+
+html {
+  overflow: hidden;
+  margin: -8px;
+}
+
+.boxmenu {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid black;
+  width: 100%;
+  height: 56px;
+  margin-top: 34px;
+  margin-left: 40px;
+  margin-right: 48px;
+}
+
+.logo {
+  display: flex;
+  flex: 2;
+  height: 33px;
+  width: 170px;
+}
+
+.menuh {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.titleh {
+  width: 100%;
+  text-align: center;
+}
+
+.burger {
+  display: none;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
