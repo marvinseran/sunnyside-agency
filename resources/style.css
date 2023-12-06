@@ -16,6 +16,7 @@ header {
 
 body {
   width: 100%;
+  max-width: 1440px;
 }
 
 .boxmenu {
@@ -58,6 +59,7 @@ body {
   border-radius: 30px;
   border: none;
   width: 140px;
+  transition: 0.4s;
 }
 
 .titleh {
@@ -118,26 +120,29 @@ body {
 .box2 {
   display: flex;
   width: 100%;
+  max-width: 1440px;
 }
 .box2__text {
   justify-content: center;
   align-items: center;
   display: flex;
   text-align: left;
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 .box2__text2 {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 285px;
+  width: 50%;
+  height: auto;
   margin-right: 110px;
   margin-left: 165px;
 }
 .box2__text2--second {
   margin-right: 165px;
   margin-left: 110px;
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 .box2__title {
   font-family: "Fraunces";
@@ -171,6 +176,7 @@ body {
   border-radius: 3px 5px;
   display: inline-block;
   height: 0.8em;
+  transition: 0.4s;
 }
 .box2__learn2 {
   display: flex;
@@ -187,6 +193,7 @@ body {
   border-radius: 3px 5px;
   display: inline-block;
   height: 0.8em;
+  transition: 0.4s;
 }
 .box2__learn:hover {
   border-bottom: 10px solid rgb(250, 212, 0);
@@ -195,13 +202,14 @@ body {
   border-bottom: 10px solid rgb(254, 119, 102);
 }
 .box2__img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 .box2--first {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  height: auto;
 }
 
 .boxgp {
@@ -210,6 +218,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: auto;
+  max-width: 1440px;
 }
 .boxgp__title {
   font-family: "Fraunces", serif;
@@ -243,10 +253,11 @@ body {
   background-image: url(images/photos/image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0% 0%;
   color: #3E7467;
-  width: 50%;
-  flex: 1;
   flex-direction: column;
+  width: 50%;
+  height: auto;
 }
 
 .boxp {
@@ -254,9 +265,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #19536C;
-  width: 50%;
-  flex: 1;
   flex-direction: column;
+  width: 50%;
 }
 
 .box3 {
@@ -401,6 +411,7 @@ header a:visited {
 
 header a, .boxmenu {
   justify-content: space-between;
+  transition: 0.4s;
 }
 
 footer a {
@@ -409,6 +420,7 @@ footer a {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 18px;
+  transition: 0.4s;
 }
 
 footer a:hover {
@@ -423,4 +435,10 @@ button:hover {
   background-color: hsl(210, 59%, 64%);
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    background-color: lightblue;
+  }
 }/*# sourceMappingURL=style.css.map */
