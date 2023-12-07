@@ -437,8 +437,8 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 475px) {
-  body {
-    background-color: lightblue;
+@media screen and (max-width: 375px) {
+  .box2 {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
